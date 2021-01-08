@@ -1,0 +1,1 @@
+DRIVER=="usb", ATTR{idProduct}=="c246", ATTR{idVendor}=="046d", ATTR{product}=="G300s Optical Gaming Mouse", MODE="0666", GROUP="abhishek"

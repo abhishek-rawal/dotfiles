@@ -1,0 +1,6 @@
+# blacklist autosuspend for keyboard/mouse
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="04f2", TEST=="power/autosuspend", ATTR{power/autosuspend}="-1"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="046d", TEST=="power/autosuspend", ATTR{power/autosuspend}="-1"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="24c6", TEST=="power/autosuspend", ATTR{power/autosuspend}="-1"
+
+
